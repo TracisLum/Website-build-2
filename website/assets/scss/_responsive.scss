@@ -1,0 +1,23 @@
+@media (min-width: 768px){
+    .mobile-item{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 767.98px){
+    .desktop-item{
+        display: none;
+    }
+
+    footer{        
+        >.row{
+            .link-list-group{
+                border-bottom: 1px solid #000;
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

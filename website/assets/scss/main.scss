@@ -1,0 +1,136 @@
+@import "_default.scss";
+@import "_responsive.scss";
+
+nav{
+    border: 2px solid #000;
+    border-bottom: none;
+    .nav-item{
+        .dropdown-menu{
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+
+header{
+    border: 2px solid #000;
+    border-top: none;
+
+    .carousel-item{
+        background-color: #e0e0e0;
+        background-image: url('assets/image/2000x500.png'); 
+        width:100%; 
+        height: 100%;
+
+        >img{
+            border:none;
+            opacity: 0;
+        }
+
+        .banner-title{
+            position: absolute;
+            top:50%;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+.welcome{
+    margin-top: 20px;
+
+    .form-search{
+        width: 100%;
+
+        .form-search-title{
+            font-size: 1.75rem;
+            margin-right: 7px;
+        }
+
+        input{
+            border:none;
+            border-bottom: 1px solid black;
+        }
+    }
+}
+
+.featured-products{
+    .featured-products-title{
+        padding-left: 40px;
+    }
+    .carousel-indicators{
+        li{
+            background-color: #fff;
+            border: 0.5px solid rgba($color: #000000, $alpha: 0.6);
+            width: 10px;
+            height: 10px;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+        }
+        li.active{
+            background-color: #000;
+        }
+    }
+    .product-item{
+        margin: 20px;
+        padding: 10px 20px;
+
+        .product{
+            .product-image{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+
+            .product-description{
+                margin: 18px 0;
+            }
+            .view-btn{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.advertisements{
+    margin-bottom: 30px;
+
+    .ads-item{
+        margin-bottom: 2px;
+    }
+}
+
+footer{
+    padding: 30px;
+    border: 1px solid #000;
+    background-color: #e0e0e0;
+
+    .link-list-group{    
+        
+        a{
+            color: #000;
+        }
+
+        >a{
+            &:before{
+                display: inline-block;
+                width: 0;
+                height: 0;
+                margin-left: .255em;
+                vertical-align: .255em;
+                content: "";
+                border-top: .3em solid;
+                border-right: .3em solid transparent;
+                border-bottom: 0;
+                border-left: .3em solid transparent;
+            }
+        }
+
+        ul{
+            list-style: none;
+            padding-left: 12px;
+        }
+    }
+}

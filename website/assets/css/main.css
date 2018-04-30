@@ -1,0 +1,176 @@
+img {
+  border: 2px solid #000;
+}
+
+.border {
+  border: 2px solid #000;
+}
+
+.bg-gray {
+  background-color: #e0e0e0;
+}
+
+.seperator {
+  padding: 10px 0;
+  border-top: 1px solid gray;
+  margin: 30px 10px;
+}
+
+.blank-space {
+  padding: 10px 0;
+  margin: 30px;
+}
+
+.oi {
+  color: #000;
+}
+
+nav {
+  z-index: 100;
+}
+
+@media (min-width: 768px) {
+  .mobile-item {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .desktop-item {
+    display: none;
+  }
+  footer > .row .link-list-group {
+    border-bottom: 1px solid #000;
+  }
+  footer > .row .link-list-group:last-child {
+    border-bottom: none;
+  }
+}
+
+nav {
+  border: 2px solid #000;
+  border-bottom: none;
+}
+
+nav .nav-item .dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+
+header {
+  border: 2px solid #000;
+  border-top: none;
+}
+
+header .carousel-item {
+  background-color: #e0e0e0;
+  background-image: url("assets/image/2000x500.png");
+  width: 100%;
+  height: 100%;
+}
+
+header .carousel-item > img {
+  border: none;
+  opacity: 0;
+}
+
+header .carousel-item .banner-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.welcome {
+  margin-top: 20px;
+}
+
+.welcome .form-search {
+  width: 100%;
+}
+
+.welcome .form-search .form-search-title {
+  font-size: 1.75rem;
+  margin-right: 7px;
+}
+
+.welcome .form-search input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.featured-products .featured-products-title {
+  padding-left: 40px;
+}
+
+.featured-products .carousel-indicators li {
+  background-color: #fff;
+  border: 0.5px solid rgba(0, 0, 0, 0.6);
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.featured-products .carousel-indicators li.active {
+  background-color: #000;
+}
+
+.featured-products .product-item {
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+.featured-products .product-item .product .product-image {
+  width: 100%;
+}
+
+.featured-products .product-item .product .product-image img {
+  width: 100%;
+}
+
+.featured-products .product-item .product .product-description {
+  margin: 18px 0;
+}
+
+.featured-products .product-item .product .view-btn {
+  width: 100%;
+  height: 100%;
+}
+
+.advertisements {
+  margin-bottom: 30px;
+}
+
+.advertisements .ads-item {
+  margin-bottom: 2px;
+}
+
+footer {
+  padding: 30px;
+  border: 1px solid #000;
+  background-color: #e0e0e0;
+}
+
+footer .link-list-group a {
+  color: #000;
+}
+
+footer .link-list-group > a:before {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+
+footer .link-list-group ul {
+  list-style: none;
+  padding-left: 12px;
+}
+/*# sourceMappingURL=main.css.map */
